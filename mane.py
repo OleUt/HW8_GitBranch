@@ -10,3 +10,11 @@ def mane_function(i):
 
 number = int(input('Enter a number:'))
 print(mane_function(number))
+
+def test_function(i):
+    i2 = i*i
+    return i2
+
+print('i^2 =', test_function(number))
+
+
