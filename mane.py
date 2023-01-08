@@ -5,6 +5,7 @@ def mane_function(i):
         result = 'i<5'
     else:
         result = 'i=5'
+    result = result + '\nDone'
     return result
 
 number = int(input('Enter a number:'))
