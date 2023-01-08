@@ -13,8 +13,9 @@ print(mane_function(number))
 
 def test_function(i):
     i2 = i*i
-    return i2
+    i10 = i * 10
+    return i2, i10
 
-print('i^2 =', test_function(number))
+print('(i^2, i*10) =', test_function(number))
 
 
