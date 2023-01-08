@@ -15,3 +15,14 @@ print(mane_function(number))
 
 j = math.factorial(number)
 print('factorial', number, '=', j)
+
+
+def test_function(i):
+    i2 = i*i
+    i10 = i * 10
+    return i2, i10
+
+print('(i^2, i*10) =', test_function(number))
+
+
+
