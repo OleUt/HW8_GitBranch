@@ -1,3 +1,5 @@
+import math
+
 def mane_function(i):
     if i < 5:
         result = 'i<5'
@@ -10,3 +12,6 @@ def mane_function(i):
 
 number = int(input('Enter a number:'))
 print(mane_function(number))
+
+j = math.factorial(number)
+print('factorial', number, '=', j)
